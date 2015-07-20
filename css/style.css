@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', arial, sans serif;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #24292d;
+	text-align: center;
+	text-decoration: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	/* position fixed will cause the tag to lose the default of width 100% - add width back */
+	width: 100%;
+	/*when fixed to the top without a b/g color we see through to section below - add own white b/g for the header*/
+	background-color: #ffffff;
+	/* specify the layers or z axis - create own scale with z-index /* 
+	/* steps of 10 make it easier to position other tags in between at a later point if needed */
+	z-index: 10;
+	box-shadow: 0 0 7px rgba(0,0,0,0.6);
+}
+
+h1 img{
+float: left;
+line-height: 75px; 
+max-width: 38%;
+
+/* margin: 0 0 0 200px; */}
+
+nav {
+float: right;
+line-height: 75px;
+padding: 0 20px 0 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #777777;
+	/* display inline - sits next to each other */
+	/* display block - stack ontop of each other */
+	/* display block inline-block */
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+
+nav a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+	.scroll{
+	margin: 0 20px 0 0;
+}
+	.arrow {
+		display: block;
+		margin: 20px auto 0 auto;
+	}
+	
+	/*Photo sections - full height + photo backgrounds, Heading at the bottom of each section */
+
+	#intro {
+		background-image:url(../images/apphero.png); 
+		background-color: #ffffff;
+		padding: 200px 0 50px 0;
+		background-position: center;
+
+		
+	}
+
+/*two features section*/
+
+	.subscribe {
+	/* one single column*/
+		background-color:
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+		padding: 50px 0 50px;
+	}
+
+	.features {c
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+		padding: 50px 0 50px;
+
+		/* get images to stack */
+		display: block;
+		margin: 15px auto 15px auto;
+
+	}	
+
+	/* IMAGES SECTION */
+	.lagoon, .pool, .boat, .forest , .river{
+
+		/* set to 100% of browser height */
+
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		/* create window effect where images are fixed inplace as we scroll*/
+		background-attachment: fixed;
+
+		/* fix absoulte position issue - reset the co-ords system to the current location */
+		position: relative;
+	}
+
+	.lagoon {
+		background-image:url(../images/anthero_01.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
+
+	.pool {
+		background-image:url(../images/mainhero_01.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
+
+	.forest {
+	background-image:url(../images/anthero_03.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
+
+	.boat {
+		background-image:url(../images/ant_hero.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
+
+	.river {
+			background-image:url(../images/anthero_04.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
+	
+/*MAKE SURE TO CLOSE OFF BRACKETS*/
+/*MAILCHIMP*/
+
