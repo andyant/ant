@@ -63,7 +63,7 @@ nav a:hover {
 	#intro {
 		background-image:url(../images/apphero.png); 
 		background-color: #ffffff;
-		padding: 200px 0 50px 0;
+		padding: 300px 0 250px 0;
 		background-position: center;
 
 		
@@ -76,22 +76,22 @@ nav a:hover {
 		background-color:
 		max-width: 800px;
 		margin: 0 auto 0 auto;
-		padding: 50px 0 50px;
+		padding: 250px 0 250px;
 	}
 
-	.features {c
+	.features {
 		max-width: 800px;
 		margin: 0 auto 0 auto;
-		padding: 50px 0 50px;
+		padding: 200px 0 50px;
 
 		/* get images to stack */
 		display: block;
-		margin: 15px auto 15px auto;
+		margin: 55px auto 15px auto;
 
 	}	
 
 	/* IMAGES SECTION */
-	.lagoon, .pool, .boat, .forest , .river{
+	.hive, .lagoon, .pool, .boat, .forest , .river{
 
 		/* set to 100% of browser height */
 
@@ -105,6 +105,11 @@ nav a:hover {
 		/* fix absoulte position issue - reset the co-ords system to the current location */
 		position: relative;
 	}
+	.hive{
+		background-image:url(../images/images_ant.jpg); 
+		background-position: center;
+		vertical-align: center;
+	}
 
 	.lagoon {
 		background-image:url(../images/anthero_01.jpg); 
@@ -113,7 +118,7 @@ nav a:hover {
 	}
 
 	.pool {
-		background-image:url(../images/mainhero_01.jpg); 
+		background-image:url(../images/ant_hero_02.jpg); 
 		background-position: center;
 		vertical-align: center;
 	}
